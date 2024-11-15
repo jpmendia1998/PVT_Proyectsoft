@@ -1,5 +1,4 @@
 def corr_Rs_standing(T,Yg,API,p):
-    p=float(input("Ingrese el valor de Presion: "))
     x=0.0125*API-0.00091*(T-460)
     Rs= Yg*((p/18.2)+1.4)*(10**x)**1.2048
     return Rs
